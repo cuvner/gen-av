@@ -12,13 +12,16 @@
 - Similar to how light waves create visuals, sound waves create auditory experiences.
 
 ### The Science of Seeing Sound
-![Standing wave in cornstarch](images/standing_wave.jpg)
-
 - Sound is physical and can be made visible.
 - **Standing Waves Demonstration**:
 
   - Waves are physical and can be created [![Alt Text](images/daniel_palacio.png)](https://vimeo.com/12075151)
-  - Sound waves can create visible patterns in materials like cornstarch.  
+    *click image*.
+    
+    *A long piece of rope represents three dimensionally a series of waves floating in space, as well as producing sounds from the physical action of their movement: the rope which creates the volume also simultaneously creates the sound by cutting through the air, making up a single element. [... read more](www.danielpalacios.info)*
+    
+  - Sound waves can create visible patterns in materials like cornstarch.
+  - ![Standing wave in cornstarch](images/standing_wave.jpg) 
   - **Reference**: [Standing Waves with Cornstarch](https://youtu.be/WaYvYysQvBU?si=hj87zU-DHQkleorG&t=113).  
   - **How it works**: Vibrations from sound waves cause the cornstarch mixture to form standing wave patterns.  
   - These patterns make the invisible vibrations of sound tangible and visible.  
