@@ -3,6 +3,10 @@
 ## 1. Foundations of Sound
 
 ### The Science of Sound
+
+![Cool Image](https://example.com/images/cool-image.png)
+
+
 - Life is made of waves. Sound is a wave phenomenon that travels through air and other media.  
 - The human ear converts these waves into electrical signals, allowing us to perceive sound.  
 - Similar to how light waves create visuals, sound waves create auditory experiences.
@@ -11,7 +15,9 @@
 ![Standing wave in cornstarch](images/standing_wave.jpg)
 
 - Sound is physical and can be made visible.
-- **Standing Waves Demonstration**:  
+- **Standing Waves Demonstration**:
+
+  - Waves are physical and can be created [![Alt Text](https://example.com/path-to-thumbnail.jpg)](https://vimeo.com/12075151)
   - Sound waves can create visible patterns in materials like cornstarch.  
   - **Reference**: [Standing Waves with Cornstarch](https://youtu.be/WaYvYysQvBU?si=hj87zU-DHQkleorG&t=113).  
   - **How it works**: Vibrations from sound waves cause the cornstarch mixture to form standing wave patterns.  
