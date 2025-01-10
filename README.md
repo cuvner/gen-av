@@ -17,7 +17,7 @@
 - Sound is physical and can be made visible.
 - **Standing Waves Demonstration**:
 
-  - Waves are physical and can be created [![Alt Text](https://example.com/path-to-thumbnail.jpg)](https://vimeo.com/12075151)
+  - Waves are physical and can be created [![Alt Text](images/daniel_palacio.png)](https://vimeo.com/12075151)
   - Sound waves can create visible patterns in materials like cornstarch.  
   - **Reference**: [Standing Waves with Cornstarch](https://youtu.be/WaYvYysQvBU?si=hj87zU-DHQkleorG&t=113).  
   - **How it works**: Vibrations from sound waves cause the cornstarch mixture to form standing wave patterns.  
