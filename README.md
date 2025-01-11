@@ -40,7 +40,7 @@
   - **Partial Listening**: Being aware of sound without focusing fully.
 
 ### Key References
-- **John Cage**: [*4’33”*](https://en.wikipedia.org/wiki/4%E2%80%9333%E2%80%B3)   – Silence as a canvas for ambient sound. 
+- **John Cage**: [*4’33”*](https://www.youtube.com/watch?v=yoAbXwr3qkg)   – Silence as a canvas for ambient sound. 
 - **Alvin Lucier**: [*I Am Sitting in a Room*](https://vimeo.com/14617936) – Transforming speech through resonance.
 
 ### Activity: Listening Exercise
@@ -111,7 +111,7 @@
 ## Resources for Further Exploration
 
 ### Sound and Listening
-- **John Cage**: [*4’33”*](https://en.wikipedia.org/wiki/4%E2%80%9333%E2%80%B3)  
+- **John Cage**: [*4’33”*](https://www.youtube.com/watch?v=yoAbXwr3qkg)  
 - **Alvin Lucier**: [*I Am Sitting in a Room*](https://vimeo.com/14617936)
 
 ### DIY Sound Tools
