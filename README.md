@@ -31,6 +31,11 @@
 
 ## 2. The Art of Listening
 
+How can sound add meaning to your work?
+
+Artist/researcher Cathy Lane argues that listening tells us about what we cannot see particularly regarding people places and language and what can that tell us about social, cultural and political relationships?
+- [Research - Cathy Lane](https://crisap.org/research/)
+
 ### Listening as a Skill
 - Listening is more than hearing—it’s an act of attention and interpretation.
 - Modes of listening:  
@@ -41,7 +46,7 @@
 
 ### Key References
 - **John Cage**: [*4’33”*](https://www.youtube.com/watch?v=yoAbXwr3qkg)   – Silence as a canvas for ambient sound. 
-- **Alvin Lucier**: [*I Am Sitting in a Room*](https://vimeo.com/14617936) – Transforming speech through resonance.
+- **Alvin Lucier**: [*I Am Sitting in a Room*](https://www.youtube.com/watch?v=bhtO4DsSazc) – Transforming speech through resonance.
 
 ### Activity: Listening Exercise
 1. Sit in silence for 5 minutes and focus on the sounds around you.  
@@ -78,10 +83,26 @@
 ### Introduction to Generative Sound
 - Generative sound combines rules, randomness, and repetition to create evolving soundscapes.
 - Tools we’ll explore:  
-  - **Strudel**: Quick and accessible generative music creation.  
-  - **Sonic Pi**: Live coding platform for sound loops and manipulation.  
-  - **Python**: Libraries like Pyo for sound synthesis.  
-  - **p5.js**: The p5.sound library for creative coding.
+  - **Strudel**: Quick and accessible generative music creation. [Website here:](https://strudel.tidalcycles.org/)
+  - Paste in this code and press play
+ ```
+samples({
+ding: 'audio_things/bang.wav',
+  seagull:'audio_things/seagull.wav'
+}, 'github:cuvner/samples/main/'  )
+
+sound(" <seagull seagull seagull>*4, bd*8 ")
+  .begin("0.25")
+  .cut(1)
+.sometimesBy(0.7,degradeBy(0.5))
+  .delay(0.5)
+.decay(.04).sustain(3).scope()
+```
+    
+  - **Sonic Pi**: Live coding platform for sound loops and manipulation. Requires downloading [Here:](https://sonic-pi.net/) 
+  - **Python**: Online python coding with [Tune Pad](https://tunepad.com/interlude/pop-beat ).  
+  - **p5.js**: The online p5js environment for creative coding see tutorials [here](https://www.youtube.com/watch?v=Bk8rLzzSink).
+    try this for an example [Synth](https://editor.p5js.org/tom.smith/sketches/N16chLovz) or [this](https://editor.p5js.org/ivymeadows/sketches/B1FidNdqQ) 
 
 ### Activity Part 1: Editing Recorded Sounds
 1. Use Audacity to edit your recordings:  
