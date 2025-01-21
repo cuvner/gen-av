@@ -4,7 +4,7 @@
 
 ### The Science of Sound
 
-![Cool Image](https://example.com/images/cool-image.png)
+![Cool Image](images/Sound_Mirrors.jpg)
 
 
 - Life is made of waves. Sound is a wave phenomenon that travels through air and other media.  
