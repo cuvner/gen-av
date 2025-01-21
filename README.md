@@ -113,6 +113,17 @@ s("certainSound")
   .rev() // Reverse the order of the chops
   .loopAt(4); // Stretch the sample to fit into 4 cycles
 ```
+
+```
+await samples({
+  bang: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3'
+});
+
+s("bang")
+  .splice(8, "0 1 [2 3 0]@2 3 0@2 7")
+  .hurry(0.65);
+
+```
     
   - **Sonic Pi**: Live coding platform for sound loops and manipulation. Requires downloading [Here:](https://sonic-pi.net/) 
   - **Python**: Online python coding with [Tune Pad](https://tunepad.com/interlude/pop-beat ).  
