@@ -116,14 +116,16 @@ s("certainSound")
 
 ```
 await samples({
-  bang: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3'
+  bang: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3',
+  daf: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/daf.mp3'
 });
 
-s("bang")
+s("daf")
   .splice(8, "0 1 [2 3 0]@2 3 0@2 7")
   .hurry(0.65);
 
 ```
+Reference to samples [Here](https://strudel.tidalcycles.org/learn/samples#fit)
     
   - **Sonic Pi**: Live coding platform for sound loops and manipulation. Requires downloading [Here:](https://sonic-pi.net/) 
   - **Python**: Online python coding with [Tune Pad](https://tunepad.com/interlude/pop-beat ).  
