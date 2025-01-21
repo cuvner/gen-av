@@ -85,6 +85,21 @@ Artist/researcher Cathy Lane argues that listening tells us about what we cannot
 - Tools we’ll explore:  
   - **Strudel**: Quick and accessible generative music creation. [Website here:](https://strudel.tidalcycles.org/)
   - Paste in this code and press play
+ 
+```
+samples({
+ding: 'audio_things/bang.wav',
+  seagull:'audio_things/seagull.wav'
+}, 'github:cuvner/gen-av/main/' )
+
+sound(" <seagull seagull seagull>*4, bd*8 ")
+  .begin("0.25")
+  .cut(1)
+.sometimesBy(0.7,degradeBy(0.5))
+  .delay(0.5)
+.decay(.04).sustain(3).scope()
+
+```
  ```
 samples({
 ding: 'audio_things/bang.wav',
