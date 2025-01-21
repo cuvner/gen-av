@@ -126,6 +126,12 @@ s("daf")
 
 ```
 Reference to samples [Here](https://strudel.tidalcycles.org/learn/samples#fit)
+
+
+You must alter the final part of the link url to bring in your sample ``` audio_things/certainsoundmono_01.mp3 ```
+```
+ certainSound: 'github:cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3
+```
     
   - **Sonic Pi**: Live coding platform for sound loops and manipulation. Requires downloading [Here:](https://sonic-pi.net/) 
   - **Python**: Online python coding with [Tune Pad](https://tunepad.com/interlude/pop-beat ).  
