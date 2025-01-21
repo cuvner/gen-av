@@ -125,6 +125,26 @@ s("daf")
   .hurry(0.65);
 
 ```
+```
+samples({
+  bang: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/daf.mp3',
+  bd: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3' // Example drum sound
+});
+
+stack(
+  // Play the sample looped at 4 cycles
+  //s("bang").loopAt(4),
+
+  // Play the same sample looped at 2 cycles
+ // s("bang").loopAt(2).hurry(1.5),
+
+  // Add a beat with a drum sample
+  //s("bd") // Simple 4-on-the-floor beat
+);
+
+```
+
+
 Reference to samples [Here](https://strudel.tidalcycles.org/learn/samples#fit)
 
 Upload your samples here: [CLICKME](https://forms.gle/fn3Mq7vYUfEuCJxx6)
