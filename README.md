@@ -127,6 +127,8 @@ s("daf")
 ```
 Reference to samples [Here](https://strudel.tidalcycles.org/learn/samples#fit)
 
+Upload your samples here: [CLICKME](https://forms.gle/fn3Mq7vYUfEuCJxx6)
+
 
 You must alter the final part of the link url to bring in your sample ``` audio_things/certainsoundmono_01.mp3 ```
 ```
