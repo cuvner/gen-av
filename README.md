@@ -102,11 +102,13 @@ Artist/researcher Cathy Lane argues that listening tells us about what we cannot
 - cr = crash cymbal
 - cp = clap
 
-Paste these into strudl, only one sound will play at a time
+Paste these one at a time into strudl, only one sound will play at a time
 
-``` sound("[ ~ bd] bd bd [~ bd]")  ```
+1 - ``` sound("bd bd sn hh") ```
 
-``` sound("hh*8 [sd cp]") ```
+2 - ``` sound("[ ~ bd] bd bd [~ bd]")  ```
+
+3 - ``` sound("hh*8 [sd cp]") ```
 
 Want to know what the symbols mean? [Look Here](https://strudel.cc/workshop/first-sounds/#recap)
 
