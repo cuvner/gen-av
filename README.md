@@ -126,6 +126,13 @@ sound("[ ~ bd] bd bd [~ bd]"),
 sound("hh*8 [sd cp]"),
 )
 ```
+Adding forward slashes turns off individual lines; you can turn off specific sounds.
+```
+// stack(
+sound("[ ~ bd] bd bd [~ bd]"),
+// sound("hh*8 [sd cp]"),
+// )
+```
  
 ---
 ### How to get samples into strudl
