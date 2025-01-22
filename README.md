@@ -88,7 +88,84 @@ Artist/researcher Cathy Lane argues that listening tells us about what we cannot
   - **Strudel**: Quick and accessible generative music creation. [Website here:](https://strudel.tidalcycles.org/)
   - Paste in this code and press play
  
+#### Basic beat 60 cycles/sec
 
+- bd = basedrum
+- sd = snare drum
+- hh = high hat
+- cp = clap
+
+Paste these into strudl, only one sound will play at a time
+
+``` sound("[ ~ bd] bd bd [~ bd]")  ```
+
+``` sound("hh*8 [sd cp]") ```
+
+Want to know what the symbols mean? [Look Here](https://strudel.cc/workshop/first-sounds/#recap)
+
+---
+
+### Audio effects
+[Here is a list of effects](https://strudel.tidalcycles.org/workshop/recap#audio-effects)
+
+#### Stacking sounds
+We use ```stack()``` ``` sound(), ``` notice the comma(,) after each sound. The sounds will be layered 
+
+```
+stack(
+sound("[ ~ bd] bd bd [~ bd]"),
+sound("hh*8 [sd cp]"),
+)
+```
+ 
+---
+### How to get samples into strudl
+[Upload samples](https://strudel.cc/learn/samples/#from-disk-via-import-sounds)
+
+### Heres some code that will just work
+
+```
+  // Import your sounds by clicking 'Sounds->Import Sounds'
+  // You import a folder with 2-3 samples
+  //your_sound_folder_here is a folder and :0 is the FIRST sample 
+  s("your_sound_folder_here:0")
+```
+
+A more complex sample and beats example  
+Play with the numbers
+```
+stack(
+  
+s("your_audio_folder:0").begin("< 0.5 ~  0.25 ~ 0 ~ >"),
+// s(" ~ cp"),
+// s("hh*8").every(2, slow(2)),
+//   s("bd bd bd bd ").every(2, slow(2)),
+//   note("<c3 [eb3,g3] g2 [g3,bb3]>*8")
+)
+```
+
+---
+### Using remote files with strudl
+Reference to samples [Here](https://strudel.tidalcycles.org/learn/samples#fit)
+
+Upload your samples here: [CLICKME](https://forms.gle/fn3Mq7vYUfEuCJxx6)
+
+
+You must alter the final part of the link url to bring in your sample ``` audio_things/certainsoundmono_01.mp3 ```
+```
+ certainSound: 'github:cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3
+```
+```
+await samples({
+  bang: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3',
+  daf: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/daf.mp3'
+});
+
+s("daf")
+  .splice(8, "0 1 [2 3 0]@2 3 0@2 7")
+  .hurry(0.65);
+
+```
 ```
 await samples({
   bang: 'https://raw.githubusercontent.com/cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3',
@@ -119,16 +196,7 @@ stack(
 
 ```
 
-
-Reference to samples [Here](https://strudel.tidalcycles.org/learn/samples#fit)
-
-Upload your samples here: [CLICKME](https://forms.gle/fn3Mq7vYUfEuCJxx6)
-
-
-You must alter the final part of the link url to bring in your sample ``` audio_things/certainsoundmono_01.mp3 ```
-```
- certainSound: 'github:cuvner/gen-av/main/audio_things/certainsoundmono_01.mp3
-```
+---
     
   - **Sonic Pi**: Live coding platform for sound loops and manipulation. Requires downloading [Here:](https://sonic-pi.net/) 
   - **Python**: Online python coding with [Tune Pad](https://tunepad.com/interlude/pop-beat ).  
