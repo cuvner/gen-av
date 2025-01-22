@@ -90,9 +90,16 @@ Artist/researcher Cathy Lane argues that listening tells us about what we cannot
  
 #### Basic beat 60 cycles/sec
 
-- bd = basedrum
+- bd = bass drum
 - sd = snare drum
-- hh = high hat
+- rim = rimshot
+- hh = hihat
+- oh = open hihat
+- lt = low tom
+- mt = middle tom
+- ht = high tom
+- rd = ride cymbal
+- cr = crash cymbal
 - cp = clap
 
 Paste these into strudl, only one sound will play at a time
