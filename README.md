@@ -84,7 +84,8 @@ Artist/researcher Cathy Lane argues that listening tells us about what we cannot
 
 ### Introduction to Generative Sound
 - Generative sound combines rules, randomness, and repetition to create evolving soundscapes.
-- Tools we’ll explore:  
+- Tools we’ll explore:
+  **OPEN IN GOGGLE CHROME ONLY**
   - **Strudel**: Quick and accessible generative music creation. [Website here:](https://strudel.tidalcycles.org/)
   - Paste in this code and press play
  
